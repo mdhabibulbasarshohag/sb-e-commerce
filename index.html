@@ -59,11 +59,87 @@
                             <a class="nav-link h6 text-white" aria-current="page" href="#">About</a>
                         </li>
                     </ul>
-                    <form class="d-flex">
+                    <form class="d-flex pe-2">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success text-dark sbe-bg-1" type="submit">Search</button>
                     </form>
+                    <!-- toggle right -->
+                    <div class="py-2">
+                        <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasWithBothOptions"
+                            aria-controls="offcanvasWithBothOptions">MENU</button>
+                        <div class="offcanvas offcanvas-end sbe-bg-3" data-bs-scroll="true" tabindex="-1"
+                            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Menu pt-3</h5>
+                                </h5>
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="dropdown pt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Mobile
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Nokia</a></li>
+                                        <li><a class="dropdown-item" href="#">Sony</a></li>
+                                        <li><a class="dropdown-item" href="#">Mi</a></li>
+                                        <li><a class="dropdown-item" href="#">Samsung</a></li>
+                                        <li><a class="dropdown-item" href="#">Realme</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown pt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Laptop
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Hp</a></li>
+                                        <li><a class="dropdown-item" href="#">Asus</a></li>
+                                        <li><a class="dropdown-item" href="#">Apple</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown pt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Apps
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown pt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown pt-3">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button"
+                                        id="dropdownMenuButton" data-bs-toggle="dropdown">
+                                        Dropdown button
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </nav>
         <section class="container my-5 p-2">
@@ -603,6 +679,7 @@
                 </div>
             </div>
         </section>
+        <section class="container my-5"></section>
     </main>
     <footer></footer>
     <!-- boostarp js link -->
