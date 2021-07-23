@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sbe-h {
+    height: 400px;
+}
+
+.sbe-h-sm {
+    height: 300px;
+}
+
+.sbe-bg-1 {
+    background-color: #AFEEEE;
+}
+
+.sbe-bg-2 {
+    background-color: #6A5ACD;
+}
+
+.sbe-bg-3 {
+    background-color: #00FA9A;
+}
