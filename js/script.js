@@ -1,6 +1,12 @@
 function myFnc() {
-    document.getElementById("searchbardopdoun").style.display = "block";
+    var myFunc = document.getElementById("searchbardopdoun").style.display;
+    if (myFunc == "block") {
+        document.getElementById("searchbardopdoun").style.display = "none";
+    } else {
+        document.getElementById("searchbardopdoun").style.display = "block";
+    }
 }
+
 
 function search_animal() {
     let input = document.getElementById('searchbar').value
